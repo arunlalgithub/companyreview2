@@ -1,0 +1,44 @@
+
+.cmplogo {
+    border-radius: 8px;
+  }
+
+
+  .article {
+    display: inline-block;
+    width: 10%;
+}
+
+.article2{
+ width: 400px;
+}
+
+.k{
+  position: absolute; top: 0; left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.elemstyle{
+font-size : 12px;
+/* background-color : #cfc; */
+padding : 0;
+margin : 0;
+padding-top: 7px;
+margin-left: 7px;
+line-height : 10px;
+}
+
+.msg{
+  font-size: 20px;
+  margin-right: 25px;
+  font-style: inherit;
+}
+
+
+.sortstyle{
+float: right;
+font-size: 10px;
+width: 60px;
+padding-right: 160px;
+}

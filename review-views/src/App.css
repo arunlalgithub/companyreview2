@@ -1,0 +1,317 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+  background-color: #61dafb;
+}
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.inputBox {
+  display: block;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+
+
+.appbutton {
+  margin: 50px;
+  padding: 10px;
+  width: 150px;
+  background-color: #61dafb;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.login {
+  margin-left: 1%;
+  margin-top: 25px;
+}
+
+.invalid-input {
+  color: red;
+  margin-top: 0px;
+  display: block;
+  margin-left: 10px;
+}
+
+.search-product-box {
+  width: 200px;
+  margin-left: 120px;
+  height: 30px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.control-width { width: 70%; margin: auto; }
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  margin: 0px;
+  width: 10%;
+}
+
+.card2:hover { box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.fspace{
+  margin-bottom: 3px;
+}
+
+.error{
+  color: red;
+}
+
+.navimg{
+  border-radius: 20%;
+  padding-top: 1px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  width: 100%;
+  height: 90px; 
+  object-fit: fill;
+  margin-left: 10px;
+}
+
+.cmpimg{
+  /* border-radius: 0%; */
+  padding-top: 10px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 90px; 
+  object-fit: fill;
+padding-left: 4px;
+}
+
+.navimg2{
+  border-radius: 50%;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-bottom: 3px;
+  margin-right: 130px;
+  width: 80px;
+  height: 80px;  
+  object-fit: fill;
+}
+
+
+
+.detail_navimg{
+  border-radius: 20%;
+  padding-top: 1px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  width: 80ppx;
+  height: 90px; 
+  margin-left: 20px;
+  object-fit: fill;
+}
+
+.homeimg{
+  position: absolute;
+  left: 4.86%;
+  right: 52.91%;
+  top: 37.79%;
+  bottom: 16.89%; 
+  background: #F4F4F4;
+height: 200.00799560546875px;
+width: 308.06103515625px;
+left: 30px;
+top: 387px;
+border-radius: 0px;
+
+}
+.leftside img {
+  max-width: 82%;
+  margin: 0 auto;
+}
+.login {
+  background: linear-gradient(180deg, #CFA7EF 0%, #8B7DE0 100%);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rightform {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px 20px 10px;
+  text-align: center;
+  position: relative;
+}
+.rightform h5 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  background: linear-gradient(180deg, #980CE6 0%, #2024CB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 20px;
+}
+.rightform p {
+  font-family: 'Neue Haas Grotesk Text Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #939393;
+}
+.leftside {
+  text-align: center;
+}
+.rightform button.btn.btn-dark.mt-3 {
+  padding: 5px 30px;
+  background: linear-gradient(136.93deg, #D100F3 9.08%, #002BC5 108.36%);
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  height: 34px;
+  margin-top: 18px;
+  padding-top: 1px;
+  text-align: center;
+}
+.rightform li {
+  list-style: none;
+  text-align: right;
+  text-decoration: none;
+}
+.rightform li a {
+  font-family: 'Neue Haas Grotesk Text Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5A5A5A;
+}
+.leftside h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.3;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.leftside p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0 10%;
+}
+.login .row.d-flex.align-items-center.h-10 {
+  display: flex;
+  align-items: center;
+}
+img.lftimg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top-left-radius: 20px;
+  max-width: 100px;
+}
+img.rgtimg {
+  position: absolute;
+  right: 50px;
+}
+
+.errormsg {
+  text-align: left;
+  color: red;
+  padding-left: 5px;
+}
+.signuppg .rightform .mb-2 {
+  margin-bottom: 12px;
+}
+.login .rightform .mb-2 {
+  margin-bottom: 20px;
+}
+
+.cmplistbtn {
+  padding: 5px 30px;
+  background: linear-gradient(136.93deg, #D100F3 9.08%, #002BC5 108.36%);
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+}
+.companylist .arrowimg {
+  position: absolute;
+  right: 0;
+  width: 113px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(270deg, #9867EF 0%, rgba(175, 140, 237, 0) 100%);
+  opacity: 0.4;
+}
+.companylist{
+  position: relative;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
